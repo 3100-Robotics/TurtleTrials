@@ -19,6 +19,7 @@ public final class Constants {
 
 // === C O N T R O L L E R S === //
     public static final int DriveControllerPort = 0;
+    public static final int TechControllerPort = 1;
 
 // === D R I V E - M O T O R S === //
     public static Spark leftBack = new Spark(0);
@@ -33,8 +34,6 @@ public final class Constants {
     public static Spark leftShooter = new Spark(7);
     public static Spark rightShooter = new Spark(8);
 
-    //TODO tune solenoid on pheonix tuner to the correct number
-    public static Solenoid collectorPiston = new Solenoid(41, 4);
 
 // === X B O X - C H A N N E L S === //
   // A X E S
